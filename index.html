@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhawna Nimbavat - Portfolio</title>
+
+<style>
+/* ------------------ GLOBAL ------------------ */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #e3f2ff, #fde2ff);
+    color: #000;
+}
+
+/* ------------------ NAVBAR ------------------ */
+nav {
+    background: linear-gradient(270deg,#2575fc,#6a11cb,#ff6fd8);
+    padding: 18px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-size: 300% 300%;
+    animation: navAnim 8s infinite;
+}
+@keyframes navAnim {
+    0% {background-position:0% 50%;}
+    50% {background-position:100% 50%;}
+    100% {background-position:0% 50%;}
+}
+nav a {
+    color: #fff;
+    margin: 0 18px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* ------------------ HEADER ------------------ */
+header {
+    text-align: center;
+    padding: 140px 20px 80px;
+}
+
+header img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;        /* FULL FIX */
+    object-position: center;  /* FULL FIX */
+    border: 5px solid #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-top: 15px;
+}
+
+/* ------------------ SECTIONS ------------------ */
+section {
+    padding: 60px 30px;
+    max-width: 1000px;
+    margin: 70px auto;
+    background: rgba(255,255,255,0.65);
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 6px 20px rgba(106,17,203,0.20);
+}
+
+/* TITLES */
+h2 {
+    font-size: 1.9rem;
+    background: linear-gradient(90deg,#2575fc,#6a11cb);
+    -webkit-background-clip: text;
+    color: transparent;
+    border-left: 6px solid #6a11cb;
+    padding-left: 12px;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 8px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-weight: 500;
+}
+
+/* PROJECT/BOX */
+.project {
+    background: #fff;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg,#2575fc,#6a11cb,#ff6fd8);
+    color: #fff;
+}
+</style>
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- HEADER -->
+<header>
+    <!-- **IMPORTANT: Change filename here** -->
+    <img src="WhatsApp Image 2025-12-10 at 10.26.29 AM.jpeg" alt="Bhawna Nimbavat">
+    
+    <h1>BHAVNA NIMBAVAT</h1>
+    <p>Aspiring Data Analyst | SQL • Python • Excel • Tableau • Power BI</p>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am Bhawna Nimbavat, currently pursuing a Data Analytics program at NavGurukul.
+        I specialize in SQL, Python, Excel, Tableau, and data visualization.
+        I enjoy solving real-world problems using data and creating meaningful dashboards.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>SQL</span>
+        <span>Python</span>
+        <span>Excel</span>
+        <span>Google Sheets</span>
+        <span>Tableau</span>
+        <span>Power BI</span>
+        <span>CRM</span>
+        <span>Salesforce</span>
+        <span>Data Cleaning</span>
+        <span>Google Analytics</span>
+        <span>Data Visualization</span>
+         <span>Communication</span>
+          <span>Teamwork</span>
+           <span>Time Management</span>
+           <span>Leadership</span>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+    <h2>Experience</h2>
+
+    <div class="project">
+        <h3>Facility Manager — NavGurukul (2025–Present)</h3>
+        <p>Managed operations, vendor coordination, budgeting, and improved student satisfaction by 30%.</p>
+    </div>
+
+    <div class="project">
+        <h3>Food Facilitator — NavGurukul (2025)</h3>
+        <p>Handled food management, inventory, meal planning, and reduced waste by 15%.</p>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="project">
+        <h3>BCA — RNB Global University (2025–2028)</h3>
+    </div>
+
+    <div class="project">
+        <h3>Data Analyst Program — NavGurukul (2025)</h3>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <h2>Certifications</h2>
+
+    <div class="project">
+        <h3>AI Fundamentals — NavGurukul</h3>
+    </div>
+
+    <div class="project">
+        <h3>Google Data Analytics — Coursera</h3>
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+        <!-- Tableau Project 1 -->
+        <div class="project-card">
+            <span class="project-badge">Tableau</span>
+            <h3>All States Dashboard</h3>
+            <p>Analyzed real data of multiple states using Tableau for visualization and insights.</p>
+            <a href="https://public.tableau.com/views/allstates/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">View Project</a>
+        </div>
+
+        <!-- Tableau Project 2 -->
+        <div class="project-card">
+            <span class="project-badge">Tableau</span>
+            <h3>EF SET Student Performance</h3>
+            <p>Analyzed Navgurukul students' real data to track performance stages using Tableau.</p>
+            <a href="https://public.tableau.com/views/EFSET/Sheet8?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">View Project</a>
+        </div>
+
+        <!-- SQL BigQuery Project -->
+        <div class="project-card">
+            <span class="project-badge">BigQuery</span>
+            <h3>Lok Sabha Election Analysis</h3>
+            <p>Analyzed real Lok Sabha election data using SQL in BigQuery to generate actionable insights.</p>
+            <a href="https://docs.google.com/presentation/d/1xcolGFw2X57IUvnI87H1-J-jVt6MbR5omM7tFMCT9QM/edit?usp=sharing" target="_blank">View Project</a>
+        </div>
+
+        <!-- Digital Marketing Project -->
+<div class="project-card">
+    <span class="project-badge">Google Analytics</span>
+    <h3>Website Analytics Project</h3>
+    <p>Analyzed website performance using Google Analytics, tracking user behavior, traffic, and engagement metrics to optimize digital marketing strategies.</p>
+    <a href="https://docs.google.com/presentation/d/1gP3YURR5vT9IzYp2eHJBaqjC9oSNf6NG7l1K6EDvVIk/edit?usp=sharing" target="_blank">View Project</a>
+</div>
+
+
+        <!-- Tableau Project 3 -->
+        <div class="project-card">
+            <span class="project-badge">Tableau</span>
+            <h3>Student Tableau Project</h3>
+            <p>Visualized student performance and insights using Tableau (real dataset).</p>
+            <a href="https://docs.google.com/presentation/d/1lQ0kvAz40IetoKDSetCghywHZvvCNDKpaF4pISejm0s/edit?usp=sharing" target="_blank">View Project</a>
+        </div>
+    </div>
+</section>
+
+<style>
+/* -------- Project Grid (Pinterest style) -------- */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+}
+
+.project-card {
+    background: rgba(255,255,255,0.8);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transform: translateY(0);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+}
+
+.project-badge {
+    background: #2575fc;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    margin: 8px 0;
+    font-size: 1.2rem;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background: #6a11cb;
+    padding: 8px 14px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project-card a:hover {
+    background: #2575fc;
+}
+
+/* Optional fade-in animation */
+.project-card {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+}
+
+.project-card:nth-child(1){ animation-delay: 0.1s; }
+.project-card:nth-child(2){ animation-delay: 0.3s; }
+.project-card:nth-child(3){ animation-delay: 0.5s; }
+.project-card:nth-child(4){ animation-delay: 0.7s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+
+
+
+
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <b>Bhawnavaishnav996@gmail.com</b></p>
+    <p>Phone: <b>8735027709</b></p>
+    <p>LinkedIn: 
+        <a href="https://www.linkedin.com/in/bhawna-nimbavat" target="_blank">
+            Click Here
+        </a>
+    </p>
+</section>
+
+<footer>© 2025 Bhawna Nimbavat | Portfolio Website</footer>
+
+</body>
+</html>
+
